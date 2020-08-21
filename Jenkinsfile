@@ -16,7 +16,7 @@ stage('Build Docker Image') {
             }
             steps {
                 script {
-                    app = docker.build("himanshutrial/train-schedule")
+                    app = docker.build("himanshueetrial/train-schedule")
                                      
                     app.inside {
                         sh 'echo Hello, World!'
